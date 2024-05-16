@@ -1,6 +1,6 @@
 require 'redmine'
 
-require_dependency 'my_projects/view_hook_listener'
+require File.expand_path('lib/view_hook_listener', __dir__)
 
 Redmine::Plugin.register :my_projects do
   name 'My Projects plugin'

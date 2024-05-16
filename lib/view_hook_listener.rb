@@ -1,4 +1,4 @@
-class MyProjects < Redmine::Hook::ViewListener
+class ViewHookListener < Redmine::Hook::ViewListener
   def view_welcome_index_right(context={})
     load_projects()
   end

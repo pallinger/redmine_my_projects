@@ -17,8 +17,3 @@ Installation
 
 Plugin should work now.
 
-Contact
-=======
-
-You can log bugs and feature requests for this plugin here:
-http://github.com/peelman/my_projects/issues
